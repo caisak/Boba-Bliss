@@ -37,7 +37,7 @@ Designen på denna sida är valfri men skall utgå ifrån designsystemet ni anv�
 
 ## Inlämning
 
-För att bli godkänd på den här uppgiften MÅSTE ni använda GIT och GitHub. Inlämningen sker som vanligt på läroplattformen där ni ska zippa ihop projektmappen (kom ihåg att ta bort node_modules). I projektmappen ska det finnas (utöver all kod) en README.md fil. Den ska innehålla en titel, beskrivning av projektet, info om hur projektet byggs och körs samt länk till dokumentationen för designsystemet som används, mm.
+Året är 1992, Waynes World och Charlie Moongår på biograferna. Janne Kemi är en finsk ultramiljonär som bestämt sig för att satsa på en ny e-handeln. Han vill investera i nya hemsidor. Han har anlitat er för att ta fram dessa sidor.Han har vissa specifika krav från sin IT avdelning som han bifogat som en kravspecifikation. Förutom det har ni fria händer att ta fram en grym idé och tjäna sjuka pengar (åt Janne).
 
 ## Presentation
 
@@ -48,47 +48,20 @@ Ni ska vid presentationstillfället hålla i en muntlig presentation för klasse
 - Reflektioner om projektets genomförande.
 - Designsystemet ni valde, hur det används, samt egna reflektioner (VG).
 
-### Krav för Godkänt
+ ## Kravspecifikation på projektet:
 
-- [x] Git & GitHub har använts
-- [x] Projektmappen innehåller en README.md fil - (läs ovan för mer info)
-- [x] Uppgiften lämnas in i tid!
-
-**Home**
-
-- [x] Ska ha en övergripande layout med header, main & footer.
-- [x] Startsidan ska lista samtliga produkter.
-- [x] Det ska gå att lägga till produkter i kundvagnen (header + toast + ls).
-- [x] Det ska gå att klicka på en produkt och komma till en detaljsida.
-- [x] Sidan ska vara responsiv och gå att använda på mobil, tablet & desktop.
-
-**Produkt**
-
-- [x] Ska ha en övergripande layout med header, main & footer.
-- [x] Detaljsidan ska visa all info om en produkt.
-- [x] Det ska gå att lägga till produkten i kundvagnen (header + toast + ls).
-- [x] Sidan ska vara responsiv och gå att använda på mobil, tablet & desktop.
-
-**Kundvagn & Checkout**
-
-- [x] Ska ha en övergripande layout med header, main & footer.
-- [x] Det ska gå att gå till checkoutsidan och se innehållet i kundvagnen (knapp & url).
-- [x] Det ska gå att se det totala priset i kundvagnen.
-- [x] Det ska gå att ändra produkterna i kundvagnen (header + vyn + pris + ls).
-- [x] Det ska gå att ange leveransuppgifter i ett formulär.
-- [x] Samtliga fält för checkoutsidans formulär ska ha valideringsregler.
-- [x] Formulären vid utcheckningen ska gå att automatiskt fyllas i.
-- [x] Bekräftelsesidan ska visa orderdetaljer och leveransuppgifter.
-
-### Krav för Väl Godkänt
-
-- [x] Ett designsystem/komponentbibliotek används nästintill helt uteslutande för att bygga sidan (ex: MUI, ChakraUI, Mantine, etc).
-
-**Admin**
-
-- [x] Det finns en admin-sida för produkthantering
-- [x] Det ska gå att se alla produkter på admin sidan
-- [x] Det går att lägga till produkter via admin sidan + ls
-- [x] Det går att ta bort produkter via admin sidan + ls
-- [x] Det går att redigera produkter via admin sidan + ls
-- [x] Samtliga fält för adminsidans formulär ska ha valideringsregler
+ [] Alla sidor skall vara responsiva. (G) 
+ [] Arbetet ska implementeras med en React frontend och en Express backend. 
+ [] Express backenden ska ha validering på samtliga endpoints. (G) 
+ [] Skapa ett ER diagram och koddiagram, detta ska lämnas in vid idégodkännandet (G) 
+ [] Beskriv er företagsidé i en kort textuell presentation, detta ska lämnas in vid idégodkännandet (G)
+ [] All data som programmet utnyttjar ska vara sparat i en Mongo-databas (produkter, beställningar, konton mm) (G)
+ [] Man ska kunna logga in som administratör i systemet (G)
+ [] Inga Lösenord får sparas i klartext i databasen (G)
+ [] En besökare ska kunna beställa produkter från sidan, detta ska uppdatera lagersaldot i databasen (G)
+ [] Administratörer ska kunna uppdatera antalet produkter i lager från admin delen av sidan (G)
+ [] Administratörer ska kunna se en lista på alla gjorda beställningar (G)
+ [] Sidans produkter ska delas upp i kategorier, en produkt ska tillhöra minst en kategori, men kan tillhöra flera [] Från hemsidan ska man kunna se en lista över alla produkter, och man ska kunna lista bara dom produkter som tillhör en kategori (G)
+ [] Besökare ska kunna lägga produkterna i en kundkorg, som är sparad i local-storage på klienten (G)
+ 
+ 
